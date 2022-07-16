@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Private Jet</title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__logo">
+            <img src="img/logo_air.svg" alt="logo" class="header__img" />
+          </div>
+          <ul class="header__menu">
+            <li class="header__item"><a>Home</a></li>
+            <li class="header__item"><a>Booking</a></li>
+            <li class="header__item"><a>Private Jet</a></li>
+            <li class="header__item"><a>Specification</a></li>
+            <li class="header__item"><a>Luxury Charters</a></li>
+            <li class="header__item"><a>Membership</a></li>
+            <li class="header__description--forAdapt"><a>Register</a></li>
+            <button class="button adaptiveMenu__button">Sign in</button>
+          </ul>
+          <div class="header__form">
+            <div class="adaptiveMenu">
+              <button class="button adaptiveMenu__button" onclick="showMenu()">Menu</button>
+            </div>
+            <a class="header__description">Register</a>
+            <button class="button header__button">Sign in</button>
+          </div>
+        </div>
+        <section class="advertisement">
+          <div class="advertisement__box">
+            <h1 class="advertisement__discription">
+              Enjoy <span>RESERVED</span> <br />
+              Overhead bin space
+            </h1>
+            <div class="advertisement__link">
+              <a href="" class="advertisement__item">Explore Now</a>
+              <img
+                src="./img/arrow-right 1.png"
+                alt="arrow"
+                class="arrow advertisement__arrow"
+              />
+            </div>
+          </div>
+          <!-- <div class="advertisement__img">
+            <img src="img/adver_img.png" alt="" />
+          </div> -->
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="form">
+        <ul class="form__navigation">
+          <li class="navigation__item"><a href="" 
+            >Round Trip <img src="./img/vector.png" alt="" class="item__icon"
+          /></a></li> 
+
+          <li class="navigation__item"><a href="" 
+            >Flight Type <img src="./img/vector.png" alt="" class="item__icon"
+          /></a></li> 
+
+          <li class="navigation__item"><a href="" 
+            >Person <img src="./img/vector.png" alt="" class="item__icon"
+          /></a></li> 
+        </ul>
+        <div class="form__box">
+          <div class="form__direction form__direction--from">
+            <p class="diretion__item">FROM</p>
+            <h5 class="direction__header">LAX</h5>
+            <p class="diretion__item">LOS ANGELES INTL ARPT,LOS ANGELES</p>
+          </div>
+          <img src="./img/direction__img.png" alt="" class="direction__img" />
+          <div class="form__direction form__direction--to">
+            <p class="diretion__item">TO</p>
+            <h5 class="direction__header">MIA</h5>
+            <p class="diretion__item">MIAMI INTL,MIAMI</p>
+          </div>
+          <div class="form__direction form__direction--result">
+            <div class="direction__box direction__box--from">
+              <p class="diretion__item">Departure</p>
+              <h5 class="direction__header">Fri 15 Oct</h5>
+              <ul class="direction__slider">
+               <li class="diretion__item--leftPrev"><a>Prev</a></li> 
+               <li class="diretion__item--leftPrev"><a>Next</a></li>
+              </ul>
+            </div>
+            <img src="./img/calendar.png" alt="" class="direction__icon" />
+            <div class="direction__box direction__box--to">
+              <p class="diretion__item">TO</p>
+              <h5 class="direction__header">MIA</h5>
+              <ul class="direction__slider">
+               <li class="diretion__item--rightPrev"><a>Prev</a></li> 
+                <li class="diretion__item--rightNext"><a>Next</a></li>
+              </ul>
+            </div>
+            <img src="./img/calendar.png" alt="" class="direction__icon" />
+          </div>
+        </div>
+        <a href="" class="form__link">Add Requirements</a>
+        <button class="button form__button">
+          Book Flights
+          <img
+            src="./img/white arrow.png"
+            alt="arrow"
+            class="arrow button__arrow"
+          />
+        </button>
+      </div>
+    </div>
+
+    <section class="info">
+      <h3 class="info__header">Private Jet for Business & Leisure Purposes</h3>
+      <div class="info__box">
+        <img src="./img/info_img1.png" alt="" class="info__img" />
+        <div class="info__item info__item--first">
+          <h4 class="item__header">Private Jet Charter</h4>
+          <p class="item__description">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English. Many desktop publishing
+            packages and web page editors
+          </p>
+        </div>
+      </div>
+      <div class="info__box info__box--buttom info__box--background">
+        <img src="./img/info_img2.png" alt="" class="info__img" />
+        <div class="info__item info__item--second">
+          <h4 class="item__header">Private Jet Charter</h4>
+          <p class="item__description">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English. Many desktop publishing
+            packages and web page editors
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="specification">
+        <h3 class="info__header specification__header">
+          Private Jet Performance and Specifications
+        </h3>
+        <div class="specification__items">
+          <div class="specification__box">
+            <div class="specification__item">
+              <img
+                src="./img/specification_seat.png"
+                alt=""
+                class="specification__icon"
+              />
+              <h6 class="box__header">Luxury And Comfort</h6>
+              <p class="specification__info">
+                It is a long established fact that a reader will be distracted
+                by the readable
+              </p>
+            </div>
+            <div class="specification__item">
+              <img
+                src="./img/specification_schedule.png"
+                alt=""
+                class="specification__icon"
+              />
+              <h6 class="box__header">Personal schedule & booking</h6>
+              <p class="specification__info">
+                It is a long established fact that a reader will be distracted
+                by the readable
+              </p>
+            </div>
+          </div>
+          <img src="./img/plane.png" alt="" class="specification__img" />
+          <div class="specifications__box">
+            <div class="specification__item">
+              <img
+                src="./img/specification_webbrowser.png"
+                alt=""
+                class="specification__icon"
+              />
+              <h6 class="box__header">SAFETY AND SECURITY</h6>
+              <p class="specification__info">
+                It is a long established fact that a reader will be distracted
+                by the readable
+              </p>
+            </div>
+            <div class="specification__item">
+              <img
+                src="./img/specification_captain.png"
+                alt=""
+                class="specification__icon"
+              />
+              <h6 class="box__header">EXPERIENCED CREW</h6>
+              <p class="specification__info">
+                It is a long established fact that a reader will be distracted
+                by the readable
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <section class="options">
+        <h3 class="info__header options__header">Luxury Charters</h3>
+        <ul class="options__items">
+          <li class="options__item">
+            <img src="./img/options1.png" alt="" class="options__img" />
+            <p class="options__name">Piaggio P.180 Avanti</p>
+          </li>
+          <li class="options__item">
+            <img src="./img/options2.png" alt="" class="options__img" />
+            <p class="options__name">Pilatus PC-12</p>
+          </li>
+          <li class="options__item">
+            <img src="./img/options3.png" alt="" class="options__img" />
+            <p class="options__name">piper pa27 aztec</p>
+          </li>
+          <li class="options__item">
+            <img src="./img/options4.png" alt="" class="options__img" />
+            <p class="options__name">Beech BE100 King Air</p>
+          </li>
+          <li class="options__item">
+            <img src="./img/options1.png" alt="" class="options__img" />
+            <p class="options__name">Piaggio P.180 Avanti</p>
+          </li>
+          <li class="options__item">
+            <img src="./img/options2.png" alt="" class="options__img" />
+            <p class="options__name">Pilatus PC-12</p>
+          </li>
+          <li class="options__item">
+            <img src="./img/options3.png" alt="" class="options__img" />
+            <p class="options__name">piper pa27 aztec</p>
+          </li>
+          <li class="options__item">
+            <img src="./img/options4.png" alt="" class="options__img" />
+            <p class="options__name">Beech BE100 King Air</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="container">
+      <section class="membership">
+        <h3 class="info__header membership__header">Enjoy our membership</h3>
+
+        <div class="membership__items">
+          <div class="membership__item membership__item--left">
+            <h2 class="membership__title">Popular</h2>
+            <p class="membership__discription">What You’ll Get</p>
+            <ul class="membership__list">
+              <li class="membership__list-item">
+                One-time initiation fee $0
+              </li>
+              <li class="membership__list-item">
+                Deposit $50k
+              </li>
+              <li class="membership__list-item">
+                Pricing / rates Dynamic
+              </li>
+              <li class="membership__list-item">
+                Priority fleet access Yes
+              </li>
+              <li class="membership__list-item">
+                Guaranteed fleet access No
+              </li>
+            </ul>
+            <hr class="membership__line" />
+            <p class="membership__price">$250<span class="min">/month</span></p>
+            <button class="button membership__button">Choose</button>
+          </div>
+
+          <div class="membership__item membership__item--center">
+            <h2 class="membership__title">Business</h2>
+            <p class="membership__discription">What You’ll Get</p>
+            <ul class="membership__list">
+              <li class="membership__list-item">
+                One-time initiation fee $0
+              </li>
+              <li class="membership__list-item">
+                Deposit $50k
+              </li>
+              <li class="membership__list-item">
+                Pricing / rates Dynamic
+              </li>
+              <li class="membership__list-item">
+                Priority fleet access Yes
+              </li>
+              <li class="membership__list-item">
+                Guaranteed fleet access No
+              </li>
+            </ul>
+            <hr class="membership__line" />
+            <p class="membership__price">$480<span class="min">/month</span></p>
+            <button class="button membership__button">Choose</button>
+          </div>
+
+          <div class="membership__item membership__item--right">
+            <h2 class="membership__title">Elite</h2>
+            <p class="membership__discription">What You’ll Get</p>
+            <ul class="membership__list">
+              <li class="membership__list-item">
+                One-time initiation fee $0
+              </li>
+              <li class="membership__list-item">
+                Deposit $50k
+              </li>
+              <li class="membership__list-item">
+                Pricing / rates Dynamic
+              </li>
+              <li class="membership__list-item">
+                Priority fleet access Yes
+              </li>
+              <li class="membership__list-item">
+                Guaranteed fleet access Yes
+              </li>
+            </ul>
+            <hr class="membership__line" />
+            <p class="membership__price">$680<span class="min">/month</span></p>
+            <button class="button membership__button">Choose</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <div class="plane__box">
+        <img src="./img/membership_img.png" alt="" class="plane__img" />
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__logo">
+          <img src="./img/footer_icon.png" alt="logo" class="footer__img" />
+        </div>
+        <hr class="footer__line" />
+        <div class="footer__items">
+          <ul class="footer__menu">
+            <li class="footer__item"><a>Services</a></li>
+            <li class="footer__item"><a>About us</a></li>
+            <li class="footer__item"><a>News</a></li>
+            <li class="footer__item"><a>Contact</a></li>
+          </ul>
+          <div class="footer__copyright">© 2021 Air. All rights reserved.</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- inject:js -->
+    <script src="/jsmin/jquery/jquery.min.js"></script>
+    <script src="/jsmin/slick/slick.min.js"></script>
+    <script src="/jsmin/main-min.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
