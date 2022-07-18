@@ -69,9 +69,9 @@ gulp.task("inject", () => {
   var target = gulp.src("source/**/*.html");
   var source = gulp.src(
     [
-      "./public/jsmin/jquery/**/*.js",
-      "./public/jsmin/slick/**/*.js",
-      "./public/jsmin/**/*.js",
+      "public/jsmin/jquery/**/*.js",
+      "public/jsmin/slick/**/*.js",
+      "public/jsmin/**/*.js",
       "public/css/**/*.css",
     ],
     {
@@ -138,15 +138,6 @@ gulp.task(
     "jsmin",
     "inject",
     "vendor-html",
-
-    () => {
-      gulp.watch("source/img/*", gulp.parallel("img"));
-      gulp.watch("source/vendor-styles/**.css", gulp.parallel("vendor-styles"));
-      gulp.watch("source/libs/**/*.js", gulp.parallel("vendor-scripts"));
-      gulp.watch("source/scss/**/*.scss", gulp.parallel("sass"));
-      gulp.watch("source/js/main.js", gulp.parallel("jsmin"));
-      gulp.watch("source/*.html", gulp.parallel("inject"));
-      gulp.watch("source/*.html", gulp.parallel("vendor-html"));
-    }
+    
   )
 );
